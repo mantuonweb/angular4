@@ -1,0 +1,10 @@
+ <app-myinputcomponent [myprop]="prop1" [mylist]="eventlist"></app-myinputcomponent>
+ <p class="events">
+ Input Value:{{myprop}}<br>
+ Event Map
+</p>
+ <div id="eventboard">
+   <p *ngFor="let ev of eventlist;let i=index;" class="events">
+     {{1+i}}.{{ev}}
+   </p>
+ </div>
