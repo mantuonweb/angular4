@@ -1,4 +1,24 @@
-# Lifecycle
+# Lifecycle Events
+
+ngOnChanges
+ngOnInit
+ngDoCheck
+ngAfterContentInit
+ngAfterContentChecked
+Child content init
+Child ngAfterContentInit
+Child ngAfterContentChecked
+Child ngAfterViewInit
+Child ngAfterViewChecked
+ngAfterViewInit
+ngAfterViewChecked
+ngDoCheck
+ngAfterContentChecked
+Child ngAfterContentChecked
+Child ngAfterViewChecked
+ngAfterViewChecked
+
+## https://angular.io/guide/lifecycle-hooks
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0-rc.0.
 
