@@ -1,22 +1,22 @@
 # Lifecycle Events
 
-ngOnChanges
-ngOnInit
-ngDoCheck
-ngAfterContentInit
-ngAfterContentChecked
-Child content init
-Child ngAfterContentInit
-Child ngAfterContentChecked
-Child ngAfterViewInit
-Child ngAfterViewChecked
-ngAfterViewInit
-ngAfterViewChecked
-ngDoCheck
-ngAfterContentChecked
-Child ngAfterContentChecked
-Child ngAfterViewChecked
-ngAfterViewChecked
+## ngOnChanges
+## ngOnInit
+## ngDoCheck
+## ngAfterContentInit
+## ngAfterContentChecked
+## Child content init
+## Child ngAfterContentInit
+## Child ngAfterContentChecked
+## Child ngAfterViewInit
+## Child ngAfterViewChecked
+## ngAfterViewInit
+## ngAfterViewChecked
+## ngDoCheck
+## ngAfterContentChecked
+## Child ngAfterContentChecked
+## Child ngAfterViewChecked
+## ngAfterViewChecked
 
 ## https://angular.io/guide/lifecycle-hooks
 
