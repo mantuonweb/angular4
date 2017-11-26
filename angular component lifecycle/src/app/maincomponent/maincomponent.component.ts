@@ -28,13 +28,14 @@ ngAfterViewChecked
 
 */
   @Input('myprop') myprop:string="";
+  prop1:string="";
   eventlist:any[]=[];
   constructor(){
   	this.eventlist.push("Constructor");
   }
   
   ngOnChanges(){
-  	this.eventlist.push("ngOnChanges");
+  	this.eventlist.push("ngOnChanges::[@input] only");
   	console.log("ngOnChanges");
   }
   ngOnInit(){
@@ -42,7 +43,9 @@ ngAfterViewChecked
   	console.log("ngOnInit");
   }
   ngDoCheck(){
-  	this.eventlist.push("ngDoCheck");
+  	//only one method should be there
+  	//ngDoCheck=ngOnChange + more means override;
+  	this.eventlist.push("ngDoCheck::[*] changes");
   	console.log("ngDoCheck");
   }
   ngAfterContentInit(){

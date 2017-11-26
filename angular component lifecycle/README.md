@@ -1,8 +1,14 @@
 # Lifecycle Events
 
 ## ngOnChanges
+[@input] only
+Includes first time setting the input properties.
 ## ngOnInit
+
 ## ngDoCheck
+only one method should be there
+ngDoCheck=ngOnChange + more means override;
+[*] changes
 ## ngAfterContentInit
 ## ngAfterContentChecked
 ## Child content init
