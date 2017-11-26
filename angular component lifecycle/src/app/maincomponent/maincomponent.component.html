@@ -1,4 +1,4 @@
- <app-myinputcomponent [myprop]="prop1" [mylist]="eventlist"></app-myinputcomponent>
+ <app-myinputcomponent></app-myinputcomponent><span *ngIf="alertmessage" style="color: red;">E</span>
  <input type="text" [(ngModel)]="prop1"/>
  <p class="events">
  Input Value:{{myprop}}<br>

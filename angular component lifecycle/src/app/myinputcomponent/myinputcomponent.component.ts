@@ -6,9 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./myinputcomponent.component.css']
 })
 export class MyinputcomponentComponent implements OnInit {
-  @Input('myprop') myprop:string="";
-  @Input('mylist') mylist;
-  constructor() { }
+ 
+  childproperty="";
+  constructor() { 
+    //this.childproperty="New Child Property";
+  }
 
   ngOnInit() {
   	console.log("Child :: ngOnInitS");
